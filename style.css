@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+}
+.temp{
+    border: 1px solid black;
+    width: 300px;
+    margin-left: 783px;
+    padding: 20px;
+}
+input[type="text"]{
+    width: 500px;
+    padding: 10px;
+    margin-left: 700px;
+    margin-bottom: 15px;
+}
+button{
+    margin-left: 700px;
+    padding: 10px;
+    width: 150px;
+}
+.abc{
+    border: 1px solid white;
+    width: 300px;
+    margin-left: 783px;
+    padding: 20px;
+}
+.eg{
+    background-color: black;
+    color: white;
+}

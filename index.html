@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body onload="getLocation()">
+    <h1>TimeZone API</h1>
+    <h1>Your Current Time Zone</h1>
+    <div class="temp">
+        <div id="timezone"></div><br>
+        <div id="demo"></div><br>
+        <div id="offset"></div><br>
+        <div id="offsetSeconds"></div><br>
+        <div id="offsetDST"></div><br>
+        <div id="offsetDSTSeconds"></div><br>
+        <div id="countryLocation"></div><br>
+        <div id="postcode"></div><br>
+        <div id="city"></div><br>
+    </div>
+    <div class="eg">
+        <h1>Enter Address</h1>
+        <input type="text" id="locationInput" placeholder="Address"><br>
+        <button onclick="fetchLocationData()">Get Location Data</button>
+        <h1>Your result</h1>
+        <div class="abc">
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
